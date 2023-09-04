@@ -5,9 +5,9 @@
 seq() # just using the default settings
 
 # simple sequence from 3 to 5
-seq(3, 5)
+seq(3, 6)
 
-seq(from = 3, to = 5)
+seq(from = 3, to = 6)
 
 # using length
 seq(from = 3, length = 3)
@@ -20,9 +20,9 @@ seq(from = 3, by = 0.5, length = 3) # changed order
 
 ?paste # next function
 
-paste(1:4)
+paste(1:5)
 
-class(paste(1:4)) # checking the class
+class(paste(1:5)) # checking the class
 
 paste("xyz", 1:10)
 
@@ -73,7 +73,8 @@ sum (myobject)
 "R is great 4 and I will love it"
 "R is great 7 and I will love it"
 "R is great 45 and I will love it"
-paste("R is great", c(4,7,45), "and I will love it")
+paste("R is great", c(4,7,45), "and I will love it") #correct
+paste("R is great", c(4,7,45, "and I will love it")) #incorrect
 
 # 4 vector of 1,2,3 : repeat the vector to get 11 x 1, 10 x 2, and 10 x 3
 x = rep(1:3, length = 31); x

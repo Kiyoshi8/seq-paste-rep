@@ -1,6 +1,6 @@
 ### Functions: seq, paste, rep
 
-?seq # starting with thye seq function
+?seq # starting with the seq function
 
 seq() # just using the default settings
 
